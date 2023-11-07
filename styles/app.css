@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+}
+
+.aside {
+    flex-grow: 0.3;
+}
+
+.content {
+    flex-grow: 0.7;
+}
+#listContainer{
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: black 1px solid;
+}
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 8px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  ul li:hover {
+    background-color: #f0f0f0; 
+    cursor: pointer; 
+  }
